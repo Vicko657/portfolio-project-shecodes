@@ -24,7 +24,15 @@ p {
 a {
   color: black;
 }
-
+span {
+  background: grey;
+  border-radius: 20px;
+  font-size: 12px;
+  opacity: 0.4;
+  padding: 5px 10px 5px 10px;
+  margin-right: 5px;
+  color: black;
+}
 .hero {
   color: black;
   padding: 160px 0;
@@ -54,33 +62,36 @@ a {
 }
 .project {
   background: #efeeee;
-  padding: 40px;
+  padding: 25px;
 }
 
 .project h2 {
   font-size: 28px;
   padding-bottom: 0px;
-}
-
-.project span {
-  display: block;
-  font-size: 12px;
-  opacity: 0.4;
-  padding-bottom: 100px;
+  color: black;
 }
 
 .project p {
   font-size: 14px;
   font-weight: 100;
   line-height: 1;
+  color: grey;
+}
+
+.project a {
+  color: grey;
+}
+
+.profile-picture {
+  filter: grayscale(1);
 }
 
 @media (max-width: 1200px) {
   h1 {
-    font-size: 60px;
+    font-size: 55px;
   }
   .hero {
-    padding: 5px;
+    padding: 40px;
   }
   .hero h3 {
     font-size: 18px;
@@ -91,14 +102,7 @@ a {
   .work-1 {
     padding-top: 30px;
   }
-  .work {
-    padding-right: 20px !important;
-  }
 
-  .project span {
-    font-size: 12px;
-    padding-bottom: 30px;
-  }
   .project p {
     font-size: 12px;
     font-weight: 100;
@@ -107,6 +111,9 @@ a {
   .project h2 {
     font-size: 20px;
     padding-bottom: 0px;
+  }
+  span {
+    font-size: 8px;
   }
 }
 
@@ -119,7 +126,7 @@ a {
     margin-bottom: 20px;
   }
   .hero {
-    padding: 50px;
+    padding: 30px;
   }
   .hero h3 {
     font-size: 16px;
@@ -129,11 +136,15 @@ a {
     font-size: 12px;
     margin-bottom: 30px;
   }
-  .work {
-    padding-top: 20px !important;
-  }
+
   .work-1 {
     padding-top: 0px;
-    padding-bottom: 0px;
+  }
+  span {
+    font-size: 8px;
+  }
+
+  .profile-picture {
+    width: 50%;
   }
 }
