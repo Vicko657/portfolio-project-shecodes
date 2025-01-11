@@ -12,27 +12,6 @@ body {
 .about {
   background-color: #ffffff !important;
 }
-.about h1 {
-  color: black !important;
-}
-.about h3 {
-  color: black !important;
-}
-.about p {
-  color: black !important;
-}
-.about a {
-  color: black !important;
-}
-.about .btn {
-  margin-top: 30px;
-}
-.about .navbar {
-  color: black !important;
-}
-.about .menu-line {
-  border-bottom: 1px solid lightgray;
-}
 
 h1 {
   font-family: var(--heading-font-family);
@@ -48,8 +27,15 @@ p {
   font-style: normal;
 }
 a {
-  color: white !important;
+  color: white;
   font-family: var(--default-font-family);
+}
+.nav-link {
+  color: grey !important;
+  font-family: var(--default-font-family);
+}
+.active {
+  color: white !important;
 }
 span {
   background: grey;
@@ -64,7 +50,9 @@ span {
   font-family: var(--default-font-family);
   border-bottom: 1px solid lightgray;
   padding: 20px 0;
-  color: white;
+}
+.navbar-brand {
+  color: white !important;
 }
 .navbar .container {
   padding: 0px;
@@ -84,6 +72,33 @@ button.navbar-toggler {
   margin: 5px 1px 5px 0px;
   padding-left: 15px;
   padding-right: 15px;
+}
+.about h1 {
+  color: black !important;
+}
+.about h3 {
+  color: black !important;
+}
+.about p {
+  color: black !important;
+}
+.about a {
+  color: black !important;
+}
+.about .nav-link {
+  color: grey !important;
+}
+.about .btn {
+  margin-top: 30px;
+}
+.about .active {
+  color: black !important;
+}
+.about .navbar {
+  color: black !important;
+}
+.about .menu-line {
+  border-bottom: 1px solid lightgray;
 }
 
 .content-container {
