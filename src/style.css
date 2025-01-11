@@ -6,9 +6,28 @@
 }
 
 body {
-  margin: 60 auto;
   font-family: var(--default-font-family);
+  background-color: #202020;
 }
+.about {
+  background-color: #ffffff !important;
+}
+.about h1 {
+  color: black !important;
+}
+.about h3 {
+  color: black !important;
+}
+.about p {
+  color: black !important;
+}
+.about a {
+  color: black !important;
+}
+.about .navbar {
+  color: black !important;
+}
+
 h1 {
   font-family: var(--heading-font-family);
   font-style: normal;
@@ -16,13 +35,15 @@ h1 {
   font-size: 98px;
   text-transform: uppercase;
   line-height: 0.9;
+  color: white;
 }
 p {
   font-family: var(--default-font-family);
   font-style: normal;
 }
 a {
-  color: black;
+  color: white !important;
+  font-family: var(--default-font-family);
 }
 span {
   background: grey;
@@ -33,9 +54,18 @@ span {
   margin-right: 5px;
   color: black;
 }
+.navbar {
+  font-family: var(--default-font-family);
+  border-bottom: 1px solid lightgray;
+  padding: 20px 0;
+  color: white;
+}
+.navbar .container {
+  padding: 0px;
+}
 .content-container {
-  color: black;
-  padding: 160px 0;
+  color: white;
+  padding: 0px 10px 0px 10px;
 }
 
 .content-container h3 {
@@ -43,15 +73,26 @@ span {
   font-style: normal;
   font-weight: 200;
   font-size: 28px;
+  color: grey;
+}
+
+.content {
+  margin-top: 120px;
 }
 
 .btn-branding {
-  border: 1px solid black;
+  border: 1px solid lightgray;
   font-size: 18px;
-  font-family: var(--heading-font-family);
+  font-family: var(--default-font-family);
   font-weight: 200;
   margin-top: 100px;
   border-radius: 0 !important;
+  color: white;
+}
+
+.btn-branding:hover {
+  border: 1px solid grey;
+  color: grey !important;
 }
 .work {
   padding-bottom: 20px;
@@ -61,18 +102,18 @@ span {
   padding-top: 100px;
 }
 .project {
-  background: #efeeee;
+  background: #1a1a1a;
   padding: 25px;
 }
 
 .project h2 {
   font-size: 28px;
   padding-bottom: 0px;
-  color: black;
+  color: white;
 }
 
 .project p {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 100;
   line-height: 1;
   color: grey;
@@ -90,12 +131,14 @@ span {
   h1 {
     font-size: 55px;
   }
-  .content-container {
-    padding: 40px;
+  .content {
+    margin-top: 30px;
+    padding: 5px;
   }
   .content-container h3 {
     font-size: 18px;
   }
+
   .btn-branding {
     margin-top: 30px;
   }
@@ -104,7 +147,7 @@ span {
   }
 
   .project p {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 100;
     line-height: 1;
   }
@@ -118,15 +161,12 @@ span {
 }
 
 @media (max-width: 900px) {
-  body {
-    padding: 10px;
-  }
   h1 {
     font-size: 48px;
     margin-bottom: 20px;
   }
   .content-container {
-    padding: 30px;
+    padding: 0px 30px 0px 30px;
   }
   .content-container h3 {
     font-size: 16px;
