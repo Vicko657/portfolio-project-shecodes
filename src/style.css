@@ -24,6 +24,9 @@ body {
 .about a {
   color: black !important;
 }
+.about .btn {
+  margin-top: 30px;
+}
 .about .navbar {
   color: black !important;
 }
