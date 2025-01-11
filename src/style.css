@@ -27,6 +27,9 @@ body {
 .about .navbar {
   color: black !important;
 }
+.about .menu-line {
+  border-bottom: 1px solid lightgray;
+}
 
 h1 {
   font-family: var(--heading-font-family);
@@ -63,6 +66,23 @@ span {
 .navbar .container {
   padding: 0px;
 }
+button.navbar-toggler {
+  background: none;
+  border: 1px solid lightgray;
+  border-radius: none;
+}
+.menu-icon {
+  color: white !important;
+  background: none !important;
+  opacity: 1 !important;
+}
+.menu-line {
+  border-bottom: 1px solid white;
+  margin: 5px 1px 5px 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .content-container {
   color: white;
   padding: 0px 10px 0px 10px;

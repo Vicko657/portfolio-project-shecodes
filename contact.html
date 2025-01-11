@@ -41,7 +41,10 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span class="menu-icon"
+              ><div class="menu-line"></div>
+              <div class="menu-line"></div>
+            </span>
           </button>
           <div
             class="collapse navbar-collapse justify-content-end"
@@ -49,7 +52,7 @@
           >
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">Home</a>
+                <a class="nav-link" href="/">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/about.html">About</a>
@@ -58,7 +61,12 @@
                 <a class="nav-link" href="/work.html">Work</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/contact.html">Contact</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/contact.html"
+                  >Contact</a
+                >
               </li>
             </ul>
           </div>
