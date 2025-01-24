@@ -178,6 +178,10 @@ footer a {
 i:hover {
   color: grey;
 }
+.small-head {
+  font-size: 12px;
+  margin-bottom: 0px;
+}
 @media (max-width: 1200px) {
   h1 {
     font-size: 55px;
