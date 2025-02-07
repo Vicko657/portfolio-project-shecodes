@@ -182,6 +182,10 @@ i:hover {
   font-size: 12px;
   margin-bottom: 0px;
 }
+
+span.further-info {
+  font-weight: 500;
+}
 @media (max-width: 1200px) {
   h1 {
     font-size: 55px;
