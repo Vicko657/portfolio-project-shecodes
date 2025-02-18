@@ -59,9 +59,19 @@ span {
 }
 button.navbar-toggler {
   background: none;
-  border: 1px solid lightgray;
   border-radius: none;
 }
+button.navbar-toggler:focus {
+  outline: none;
+}
+.navbar-toggler {
+  border: none;
+}
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
 .menu-icon {
   color: white !important;
   background: none !important;
@@ -73,6 +83,7 @@ button.navbar-toggler {
   padding-left: 15px;
   padding-right: 15px;
 }
+
 .about h1 {
   color: black !important;
 }
@@ -103,7 +114,7 @@ button.navbar-toggler {
 
 .content-container {
   color: white;
-  padding: 0px 10px 0px 10px;
+  padding: 0px 80px 0px 80px;
 }
 
 .content-container h3 {
@@ -135,15 +146,20 @@ button.navbar-toggler {
 .work {
   padding-bottom: 20px;
 }
-
+.card {
+  background: #1a1a1a;
+  border: none;
+  border-radius: 0 !important;
+}
 .work-1 {
-  padding-top: 100px;
+  padding-top: 50px;
+}
+.work-home {
+  padding-top: 50px;
 }
 .project {
-  background: #1a1a1a;
   padding: 25px;
 }
-
 .project h2 {
   font-size: 28px;
   padding-bottom: 0px;
@@ -184,11 +200,21 @@ i:hover {
 }
 
 span.further-info {
+  font-size: 15px;
   font-weight: 500;
+  background: black;
+  color: white;
 }
+
 @media (max-width: 1200px) {
   h1 {
     font-size: 55px;
+  }
+  .project h2 {
+    padding-top: 30px;
+    font-size: 28px;
+    padding-bottom: 5px;
+    margin: 0;
   }
   .content {
     margin-top: 30px;
@@ -204,18 +230,23 @@ span.further-info {
   .work-1 {
     padding-top: 30px;
   }
+  .work-home {
+    padding-top: 30px;
+  }
 
   .project p {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 100;
-    line-height: 1;
+    line-height: 1.2;
+    margin: 0;
   }
   .project h2 {
     font-size: 20px;
     padding-bottom: 0px;
   }
   span {
-    font-size: 8px;
+    font-size: 11px;
+    font-weight: 500;
   }
 }
 
@@ -223,6 +254,24 @@ span.further-info {
   h1 {
     font-size: 48px;
     margin-bottom: 20px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  .project {
+    padding: 12px;
+  }
+  .project h2 {
+    padding-top: 30px;
+    font-size: 22px;
+    padding-bottom: 5px;
+    margin: 0;
+  }
+  .project p {
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 1.2;
+    margin: 0;
   }
   .content-container {
     padding: 0px 30px 0px 30px;
@@ -236,14 +285,23 @@ span.further-info {
     margin-bottom: 30px;
   }
 
-  .work-1 {
-    padding-top: 0px;
-  }
   span {
-    font-size: 8px;
+    font-size: 11px;
+    font-weight: 500;
   }
 
   .profile-picture {
     width: 50%;
+  }
+  span.further-info {
+    font-size: 14px;
+  }
+}
+@media (max-width: 767px) {
+  .work-home {
+    padding-top: 0px;
+  }
+  .work-mobile {
+    margin-bottom: 20px;
   }
 }
