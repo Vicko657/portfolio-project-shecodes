@@ -37,6 +37,9 @@ a {
   color: grey !important;
   font-family: var(--default-font-family);
 }
+.nav-link:hover {
+  color: white !important;
+}
 .active {
   color: white !important;
 }
@@ -103,6 +106,9 @@ button.navbar-toggler:focus {
 }
 .about .nav-link {
   color: grey !important;
+}
+.about .nav-link:hover {
+  color: black !important;
 }
 .about .btn {
   margin-top: 30px;
