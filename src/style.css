@@ -22,6 +22,9 @@ h1 {
   line-height: 0.9;
   color: white;
 }
+h3 {
+  line-height: 1;
+}
 p {
   font-family: var(--default-font-family);
   font-style: normal;
@@ -40,11 +43,12 @@ a {
 span {
   background: grey;
   border-radius: 20px;
-  font-size: 12px;
+  font-size: 14px;
   opacity: 0.4;
   padding: 5px 10px 5px 10px;
   margin-right: 5px;
   color: black;
+  font-weight: 500;
 }
 .navbar {
   font-family: var(--default-font-family);
@@ -169,7 +173,7 @@ button.navbar-toggler:focus {
 }
 
 .project p {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 100;
   line-height: 1;
   color: grey;
@@ -258,7 +262,7 @@ span.further-info {
     margin-bottom: 20px;
   }
   h3 {
-    font-size: 30px;
+    font-size: 40px;
   }
   .project {
     padding: 12px;
@@ -270,16 +274,17 @@ span.further-info {
     margin: 0;
   }
   .project p {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 100;
-    line-height: 1.2;
+    line-height: 1;
     margin: 0;
+    width: 80%;
   }
   .content-container {
     padding: 0px 30px 0px 30px;
   }
   .content-container h3 {
-    font-size: 16px;
+    font-size: 22px;
   }
   .btn-branding {
     margin-top: 15px;
@@ -288,7 +293,7 @@ span.further-info {
   }
 
   span {
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 500;
   }
 
