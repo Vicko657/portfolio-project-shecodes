@@ -50,6 +50,7 @@ span {
   font-family: var(--default-font-family);
   border-bottom: 1px solid lightgray;
   padding: 20px 0;
+  background-color: #202020;
 }
 .navbar-brand {
   color: white !important;
@@ -107,6 +108,7 @@ button.navbar-toggler:focus {
 }
 .about .navbar {
   color: black !important;
+  background-color: #ffffff !important;
 }
 .about .menu-line {
   border-bottom: 1px solid lightgray;
